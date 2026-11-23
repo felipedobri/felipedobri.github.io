@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Dobri Camargo | Portfólio Acadêmico — ADS FATEC SJC</title>
+  <meta name="description" content="Portfólio Acadêmico Digital de Felipe Dobri Camargo, estudante de Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container nav-wrapper">
+      <a href="#sobre" class="brand">&lt;felipedobri /&gt;</a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-links">
+          <li><a href="#sobre">Apresentação</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#curriculo">Currículo &amp; Skills</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="sobre" class="section hero">
+      <div class="hero-grid">
+        <div class="profile-photo-wrapper">
+          <img src="assets/perfil.jpg" alt="Foto de Felipe Dobri Camargo" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-fallback" style="display: none;">
+            <span>Adicione sua foto em<br><code>assets/perfil.jpg</code></span>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <span class="tag-curso">FATEC São José dos Campos — Prof. Jessen Vidal</span>
+          <h1>Felipe Dobri Camargo</h1>
+          <p class="subtitle">Graduando em Análise e Desenvolvimento de Sistemas (ADS)</p>
+          <div class="bio-blocks">
+            <div class="bio-item">
+              <h2>Objetivos Acadêmicos e Profissionais</h2>
+              <p>
+                Consolidar uma base sólida em engenharia de software e arquitetura de sistemasao longo da graduação em ADS, atuando em oportunidades de estágio (período vespertino/noturno) voltadas ao desenvolvimento back-end, automação e infraestrutura.
+              </p>
+            </div>
+
+            <div class="bio-item">
+              <h2>Áreas de Interesse</h2>
+              <ul class="pill-list">
+                <li>Desenvolvimento Back-end (Python &amp; Java)</li>
+                <li>Modelagem de Dados &amp; SQL</li>
+                <li>Sistemas Linux, Redes &amp; Virtualização</li>
+                <li>Inferência Local de LLMs &amp; Automação</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="section-header">
+        <h2>Projetos Desenvolvidos</h2>
+        <p>Trajetória prática dividida entre entregas acadêmicas (API), atuação profissional e projetos técnicos autorais.</p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="subsection-title">2.2.1. Projetos Acadêmicos — Aprendizagem por Projetos Integradores (API)</h3>
+
+<!-- API 2º Semestre — Equipe Big O -->
+        <article class="card project-card featured">
+          <div class="card-header">
+            <div>
+              <span class="badge badge-primary">Projeto Integrador (API) &bull; 2º Semestre</span>
+              <h4>Landing Page de Captação e Pré-Qualificação de Clientes</h4>
+            </div>
+            <!-- Identificação textual da empresa parceira (sem logotipo, conforme roteiro) -->
+            <div class="partner-box">
+              <span class="label">Empresa Parceira:</span>
+              <strong>
+                <a href="https://www.vocedm.com.br" target="_blank" rel="noopener noreferrer">
+                  DM (antiga DMcard)
+                </a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div class="detail-block">
+              <h5>Descrição do Problema</h5>
+              <p>
+                A necessidade de captar solicitações de crédito de forma simples e intuitiva, garantindo a validação automatizada de pré-qualificação nas bases da DM e a aplicação precisa das regras de negócio conforme o perfil do solicitante (colaborador ou cliente externo), a modalidade escolhida (Cartão DM bandeirado, Cartão Loja físico ou Cartão Loja Digital) e a disponibilidade de lojistas parceiros no estado (UF) do cliente.
+              </p>
+            </div>
+
+            <div class="detail-block">
+              <h5>Solução Desenvolvida</h5>
+              <p>
+                Aplicação web full stack conteinerizada com Docker para captação e triagem automatizada de propostas (PAC). O sistema coleta dados pessoais e CEP, identifica colaboradores DM para aplicar aprovação automática no Cartão DM ou bloqueio no Cartão Loja, filtra lojas físicas por estado, exibe avisos de emissão exclusivamente digital, permite acompanhar o status da solicitação e oferece painel administrativo para cadastro de novos lojistas parceiros e oferta de produtos alternativos (EP e DMCred) em casos de reprovação.
+              </p>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-block">
+                <h5>Contribuições Pessoais</h5>
+                <ul>
+                  <li>Desenvolvimento da lógica de back-end em Python e implementação das regras de negócio de pré-qualificação e filtragem por CEP/UF.</li>
+                  <li>Modelagem e integração com banco de dados relacional MySQL para persistência de clientes, lojistas parceiros e propostas (PAC).</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h5>Tecnologias Utilizadas</h5>
+                <ul class="pill-list compact">
+                  <li>Python</li>
+                  <li>MySQL</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>Docker &amp; Docker Compose</li>
+                  <li>Git &amp; GitHub</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="skills-split">
+              <div class="skill-col">
+                <h5>Hard Skills Adquiridas</h5>
+                <ul>
+                  <li>Implementação de regras de negócio condicionais e validação de dados cadastrais/geográficos no back-end.</li>
+                  <li>Integração entre aplicação Python, banco de dados relacional MySQL e front-end web.</li>
+                  <li>Padronização de ambiente de desenvolvimento multi-serviço com Docker Compose.</li>
+                </ul>
+              </div>
+
+              <div class="skill-col">
+                <h5>Soft Skills Exercitadas</h5>
+                <ul>
+                  <li>Trabalho em equipe ágil (Scrum) com definição de DoR, DoD e entregas incrementais por Sprints.</li>
+                  <li>Comunicação técnica para traduzir requisitos complexos de negócio da empresa parceira em critérios de aceite.</li>
+                  <li>Organização documental e revisão colaborativa de código via Pull Requests.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer" style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+            <a href="https://github.com/felipedobri/dm-landingpage" target="_blank" rel="noopener noreferrer" class="btn-link">
+              Ver Repositório (Fork Pessoal no GitHub) &rarr;
+            </a>
+            <a href="https://youtu.be/h8qvw4YDadI" target="_blank" rel="noopener noreferrer" class="btn-link">
+              Assistir Vídeo de Execução &rarr;
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card featured">
+          <div class="card-header">
+            <div>
+              <span class="badge badge-primary">Projeto Integrador (API)</span>
+              <h4>Projeto Oswaldo — Assistente Informativo de Vacinação</h4>
+            </div>
+            <div class="partner-box">
+              <span class="label">Parceiro do Projeto:</span>
+              <strong>Parceiro interno FATEC</strong>
+            </div>
+          </div>
+
+          <div class="project-details">
+            <div class="detail-block">
+              <h5>Descrição do Problema</h5>
+              <p>
+                A dispersão de informações públicas sobre campanhas, calendários e critérios de vacinação no Brasil dificulta o acesso rápido e claro por parte da população, exigindo a consulta manual a múltiplos portais governamentais pouco intuitivos para esclarecer dúvidas cotidianas.
+              </p>
+            </div>
+
+            <div class="detail-block">
+              <h5>Solução Desenvolvida</h5>
+              <p>
+                Desenvolvimento de um bot conversacional no Telegram capaz de coletar dados atualizados de fontes oficiais via web scraping e processar perguntas em linguagem natural utilizando um modelo de linguagem (LLM) executado localmente via Ollama, entregando respostas diretas e contextualizadas ao usuário.
+              </p>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-block">
+                <h5>Contribuições Pessoais</h5>
+                <ul>
+                  <li>Implementação das rotinas de extração e estruturação de dados públicos em Python.</li>
+                  <li>Integração do fluxo conversacional com a API do Telegram e inferência local via Ollama.</li>
+                  <li>Versionamento colaborativo, revisão de código e organização dos artefatos da equipe no GitHub.</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h5>Tecnologias Utilizadas</h5>
+                <ul class="pill-list compact">
+                  <li>Python</li>
+                  <li>Web Scraping</li>
+                  <li>Telegram Bot API</li>
+                  <li>Ollama (LLMs Locais)</li>
+                  <li>Git &amp; GitHub</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="skills-split">
+              <div class="skill-col">
+                <h5>Hard Skills Adquiridas</h5>
+                <ul>
+                  <li>Extração automatizada de dados (web scraping) e tratamento de exceções.</li>
+                  <li>Integração de APIs assíncronas e orquestração de modelos locais de IA.</li>
+                  <li>Controle de versão em equipe com fluxo de branches e pull requests.</li>
+                </ul>
+              </div>
+
+              <div class="skill-col">
+                <h5>Soft Skills Exercitadas</h5>
+                <ul>
+                  <li>Comunicação técnica e alinhamento contínuo com os integrantes do time.</li>
+                  <li>Elicitação e tradução de requisitos do parceiro em entregas incrementais.</li>
+                  <li>Gestão de tempo e resolução colaborativa de gargalos técnicos sob prazo.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <a href="https://github.com/felipedobri/oswaldo-telegram" target="_blank" rel="noopener noreferrer" class="btn-link">
+              Ver Repositório (Fork Pessoal no GitHub) &rarr;
+            </a>
+          </div>
+        </article>
+      </div>
+
+    <section id="curriculo" class="section">
+      <div class="section-header">
+        <h2>Informações Curriculares &amp; Competências</h2>
+        <p>Formação acadêmica, idiomas, eventos e proficiência técnica avaliada por níveis práticos.</p>
+      </div>
+
+      <div class="curriculum-grid">
+        <div class="card">
+          <h3>Formação &amp; Idiomas</h3>
+          <ul class="timeline-list">
+            <li>
+              <span class="date">2026 — Em andamento</span>
+              <strong>Tecnologia em Análise e Desenvolvimento de Sistemas (ADS)</strong>
+              <p>FATEC São José dos Campos — Prof. Jessen Vidal (Período Matutino)</p>
+            </li>
+            <li>
+              <span class="date">Concluído (2025)</span>
+              <strong>Ensino Médio</strong>
+              <p>EE Amador Bueno da Veiga (Taubaté, SP)</p>
+            </li>
+            <li>
+              <span class="date">Proficiência Avançada</span>
+              <strong>Língua Inglesa — Nível C1</strong>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="card">
+          <h3>Participação em Eventos &amp; Comunidade</h3>
+          <ul class="timeline-list">
+            <li>
+              <span class="date">2026</span>
+              <strong>Innovation Week 2026</strong>
+              <p>Parque de Inovação Tecnológica São José dos Campos (PIT) — Participação em trilhas de tecnologia, inovação e ecossistema regional.</p>
+            </li>
+            <li>
+              <span class="date">2026</span>
+              <strong>4º Science &amp; Business Connection</strong>
+              <p>Programa Colmeia / PIT SJC — Conexão entre pesquisa aplicada, mercado e desenvolvimento tecnológico.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card skills-matrix">
+        <h3>Competências Técnicas (Hard Skills)</h3>
+        <p class="matrix-note">Classificação por autonomia prática: <strong>Proficiente</strong> (uso contínuo e domínio sólido), <strong>Desenvolvedor Autônomo</strong> (constrói soluções completas de forma independente) e <strong>Base Sólida</strong> (aplicação acadêmica e projetos guiados).</p>
+
+        <div class="matrix-grid">
+          <div class="matrix-group">
+            <h4>Linguagens &amp; Dados</h4>
+            <ul>
+              <li><span>Python</span> <span class="level level-high">Proficiente</span></li>
+              <li><span>Java (POO / JDBC / DAO)</span> <span class="level level-mid">Desenvolvedor Autônomo</span></li>
+              <li><span>SQL &amp; Modelagem Relacional</span> <span class="level level-base">Base Sólida</span></li>
+              <li><span>HTML5 &amp; CSS3</span> <span class="level level-base">Base Sólida</span></li>
+              <li><span>Shell Script (Bash / Fish)</span> <span class="level level-high">Proficiente</span></li>
+            </ul>
+          </div>
+
+          <div class="matrix-group">
+            <h4>Infraestrutura, Redes &amp; Ferramentas</h4>
+            <ul>
+              <li><span>Linux</span> <span class="level level-high">Proficiente</span></li>
+              <li><span>Git &amp; GitHub</span> <span class="level level-high">Proficiente</span></li>
+              <li><span>Ollama / llama.cpp / GGUF</span> <span class="level level-high">Proficiente</span></li>
+              <li><span>Segurança da Informação &amp; Compliance</span> <span class="level level-base">Base Sólida</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="card contact-card">
+        <h2>Contato</h2>
+        <p>Disponível para oportunidades de estágio em desenvolvimento de software, dados ou infraestrutura (período vespertino e noturno).</p>
+
+        <div class="contact-links">
+          <a href="https://github.com/felipedobri" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            GitHub: github.com/felipedobri
+          </a>
+          <a href="https://www.linkedin.com/in/felipe-dobri" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            LinkedIn: /in/felipe-dobri
+          </a>
+          <a href="mailto:felipedobri@gmail.com" class="contact-btn">
+            E-mail: felipedobri@gmail.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Felipe Dobri Camargo &bull; Portfólio Acadêmico Digital — ADS FATEC São José dos Campos</p>
+    </div>
+  </footer>
+
+</body>
+</html>
